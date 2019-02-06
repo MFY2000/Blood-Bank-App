@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 0.9s linear;
+  height: 40vmin;
+}
+ 
+.right{
+  float: left;
+}
+
+.inline{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  font-size:small;
+  float: left;
+}
+
+
+
+.left{
+padding-left:100px;
+margin-left:100px 
+}
+
+.small{
+  height:40px;  
+   position: absolute;
+  right: 90px ;
+  top: 2.5%;
+}
+
+.smaller{
+  height:0px;  
+   /* position: absolute;
+  right: 25px ;
+  top: 1.5%; */
+}
+.img{
+  border-radius:900px;
+  height:50px; 
+  float: left;
+}
+
+.imps{
+  border-radius:900px;
+  height:250px; 
+  /* align-items: center; */
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: absolute;
+  bottom: 50px;
+  /* box-shadow:  */
+
+}
+.ha{
+  font-size: x-large ;
+  line-height:50px;
+  margin-top: 100px
+}
+
+.displayInline{
+  /* display: inline-block !important; */
+  /* background-color: red; */
+  padding: 0%;
+  margin: 0%;
+  /* width: 100%; */
+  
+}
+
+.haf{
+float: right;
+margin: 0px;
+padding: 0px;
+  /* position: absolute;
+  right: 10px; */
+  
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.ceter{
+text-align-last: center !important;
+display: flex !important;
+justify-content: center !important;
+align-items: center !important;
+align-self: center !important;
+padding-right: -885px;
+flex-direction: column !important;
+justify-content: space-around !important ;
+}
+*{
+  text-align-last: center !important;
+  line-height: normal
+}
+
+.leftSide{
+  border-radius : 50%; 
+  width: 60px;
+  height:60px;
+  border: 1px solid black;
+  position: absolute;
+  right: 25px ;
+  top: 1.5%;
+  z-index: 999px;
+}
+.leftSides{
+  position: absolute;
+  right: 30px ;
+  top: 1.5%;
+}
+.rightSide{
+  border: 1px solid red;
+background-color: red;
+color: white;
+}
+
+.Exter{
+  background: red;
+  color: white; 
+
+}
+.font{
+  font-size:xx-large;
+  border: 2px solid black;
+  padding: 0px;
+  margin: 0%
+}
+
+.Login{
+  font-size:large;
+color: blue
+}
+
+.optain{
+  display: inline-flex;
+  justify-items: center;
+  align-items: center;
+  flex-wrap: nowrap
+}
+
+.Table{
+  border: none;
+  position: relative;
+}
+
+
+.Tr{
+  position: fixed;
+  padding: 10%;
+}
